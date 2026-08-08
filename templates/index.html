@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crop Prediction Model</title>
+  
+  <!-- External Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+  <!-- Link to External CSS (if using static/styles.css) -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  <div class="login">
+    <h1>Crop Prediction Model</h1>
+
+    <!-- Input Form for Sending Query to ML Model -->
+    <form action="{{ url_for('predict') }}" method="post">
+      <input type="text" name="Nitrogen" placeholder="Nitrogen" required="required" /><br>
+      <input type="text" name="Phosphorus" placeholder="Phosphorus" required="required" /><br>
+      <input type="text" name="Potassium" placeholder="Potassium" required="required" /><br>
+      <input type="text" name="temperature" placeholder="temperature" required="required" /><br>
+      <input type="text" name="humidity" placeholder="humidity" required="required" /><br>
+      <input type="text" name="pH" placeholder="pH" required="required" /><br>
+      <input type="text" name="rainfall" placeholder="rainfall" required="required" /><br>
+
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- Displays the Prediction Result -->
+    <h1 id="predict">{{ prediction_text }}</h1>
+  </div>
+</body>
+</html>
