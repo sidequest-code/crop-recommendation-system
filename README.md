@@ -37,23 +37,22 @@ crop-recommendation-system/
    ```bash
    git clone [https://github.com/sidequest-code/crop-recommendation-system.git](https://github.com/sidequest-code/crop-recommendation-system.git)
    Navigate into the project directory:
-2.Navigate into the project directory:
+2.**Navigate into the project directory**:
 ```bash
 cd crop-recommendation-system
 ```
-3.Install dependencies:
+3.**Install dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
-4.Run the Flask app:
+4.**Run the Flask app**:
 ```bash
 python app.py
 ```
-5.Open in browser:
-
+5.**Open in browser**:
 Navigate to http://127.0.0.1:5000/ in your web browser.
 
-🎯 How to Use the App
+## 🎯 How to Use the App
 1.Enter the required soil parameters (Nitrogen, Phosphorus, Potassium, and pH).
 
 2.Enter the environmental conditions (Temperature, Humidity, and Rainfall).
