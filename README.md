@@ -50,11 +50,12 @@ pip install -r requirements.txt
 python app.py
 ```
 5.Open in browser:
+
 Navigate to http://127.0.0.1:5000/ in your web browser.
 
 🎯 How to Use the App
-Enter the required soil parameters (Nitrogen, Phosphorus, Potassium, and pH).
+1.Enter the required soil parameters (Nitrogen, Phosphorus, Potassium, and pH).
 
-Enter the environmental conditions (Temperature, Humidity, and Rainfall).
+2.Enter the environmental conditions (Temperature, Humidity, and Rainfall).
 
-Click Predict to see the recommended crop!
+3.Click Predict to see the recommended crop!
