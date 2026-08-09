@@ -52,8 +52,6 @@ python app.py
 5.Open in browser:
 Navigate to http://127.0.0.1:5000/ in your web browser.
 
-```
-```
 🎯 How to Use the App
 Enter the required soil parameters (Nitrogen, Phosphorus, Potassium, and pH).
 
