@@ -37,7 +37,7 @@ crop-recommendation-system/
 
 1. **Clone the repository:**
    ```
-   git clone [https://github.com/sidequest-code/crop-recommendation-system.git](https://github.com/sidequest-code/crop-recommendation-system.git)
+   git clone https://github.com/sidequest-code/crop-recommendation-system.git
   
 2. **Navigate into the project directory**:
 ```
