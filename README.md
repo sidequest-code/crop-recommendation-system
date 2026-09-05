@@ -29,8 +29,10 @@ crop-recommendation-system/
 ├── requirements.txt      # Dependencies
 └── README.md             # Documentation
 
----
+
 ```
+---
+
 ## 🚀 How to Run the Project
 
 1. **Clone the repository:**
