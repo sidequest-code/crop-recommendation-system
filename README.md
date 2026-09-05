@@ -14,7 +14,7 @@ An end-to-end Machine Learning web application built with **Flask** and **Scikit
 
 ## 📁 Project Structure
 
-```text
+```
 crop-recommendation-system/
 │
 ├── static/
@@ -34,19 +34,19 @@ crop-recommendation-system/
 ## 🚀 How to Run the Project
 
 1. **Clone the repository:**
-   ```bash
+   ```
    git clone [https://github.com/sidequest-code/crop-recommendation-system.git](https://github.com/sidequest-code/crop-recommendation-system.git)
-   Navigate into the project directory:
+  
 2. **Navigate into the project directory**:
-```bash
+```
 cd crop-recommendation-system
 ```
 3. **Install dependencies**:
-```bash
+```
 pip install -r requirements.txt
 ```
 4. **Run the Flask app**:
-```bash
+```
 python app.py
 ```
 5. **Open in browser**:
