@@ -37,19 +37,19 @@ crop-recommendation-system/
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/sidequest-code/crop-recommendation-system.git
+    git clone https://github.com/sidequest-code/crop-recommendation-system.git
   
 2. **Navigate into the project directory**:
 ```
-cd crop-recommendation-system
+    cd crop-recommendation-system
 ```
 3. **Install dependencies**:
 ```
-pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
 4. **Run the Flask app**:
 ```
-python app.py
+     python app.py
 ```
 5. **Open in browser**:
    
